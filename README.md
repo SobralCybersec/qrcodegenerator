@@ -102,12 +102,11 @@ POST /api/qrcode/generate
 Content-Type: application/json
 
 {
-  "data": "https://exemplo.com",
-  "size": 300
+  "qrcodeurl": "https://exemplo.com"
 }
 ```
 
-**Resposta:**
+**Resposta (Exemplo):**
 ```json
 {
   "qrcodeUrl": "https://s3.us-east-2.amazonaws.com/qrcodestoragesatushi/qrcode-123456.png",
@@ -156,12 +155,6 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull re
 3. Commit suas mudanças (`git commit -m 'Adiciona nova funcionalidade'`)
 4. Push para a branch (`git push origin feature/NovaFuncionalidade`)
 5. Abra um Pull Request
-
----
-
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
 
